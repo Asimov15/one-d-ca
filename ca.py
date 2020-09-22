@@ -83,6 +83,3 @@ pygame.init()
 for ruleset_counter in range(256):
 	ruleset_obj = automata(ruleset_counter)
 	ruleset_obj.run(400)
-
-#ruleset_obj = automata(9)
-#ruleset_obj.run(20)
